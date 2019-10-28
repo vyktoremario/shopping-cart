@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Shopping Cart</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+       
+    </head>
+    <body>
+        <div class="row">
+            <!--First Column For the page!-->
+            <div class="col-md-2 side-bar">
+                <div class="side">
+                    <div class="shopping-cart-text">
+                        <h3>Shopping Cart</h3>
+                    </div>
+                    <hr class="small-line"/>
+                    <img src="assets/images/256-256-b0e5861e8b9304b0078d3569728f96fa-cart.png" width="200px" height="200px">
+                    <button onclick="changeView()" type="button" class="btn btn-light">View Shopping Cart</button>
+                    <hr class="small-line"/>
+                </div>
+            </div>
+           
+            <!--Second Column for the Page-->
+            <div class="col-md-10 full-bar">
+                <input class="xty form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+
+                <span class="fas fa-search"></span>
+                <hr />
+                <div class="empty-top"></div>
+                
+                <div class="items">
+                    <p>Item Name: T-shirt 
+                    <span class="quantity"><label>Quantity: <input type="text"></label></span></p>
+                    <p>Price: <span class="price">N6000</span></p>
+                    <button class="add-cart animated swing infinite">Add to Cart</button>
+                    <hr>
+
+                    <p>Item Name: Dress 
+                    <span class="quantity"><label>Quantity: <input type="text"></label></span></p>
+                    <p>Price: <span class="price">N8000</span></p>
+                    <button class="add-cart">Add to Cart</button>
+                    <hr>
+
+                    <p>Item Name: Short
+                    <span class="quantity"><label>Quantity: <input type="text"></label></span></p>
+                    <p>Price: <span class="price">N4000</span></p>
+                    <button class="add-cart">Add to Cart</button>
+                    <hr>
+
+                    <p>Item Name: Jeans 
+                    <span class="quantity"><label>Quantity: <input type="text"></label></span></p>
+                    <p>Price: <span class="price">N7000</span></p>
+                    <button class="add-cart">Add to Cart</button>
+                    <hr>
+                    
+                    <div class="empty-top2"></div>
+                    <table class="table">
+                        <thead class="">
+                            <tr  class="tableColor">
+                                <th scope="col">Item Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Dress</th>
+                                    <td>8000</td>
+                                    <td>2</td>
+                                    <td class="tableColor">REMOVE</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Short</th>
+                                    <td>4000</td>
+                                    <td>1</td>
+                                    <td class="tableColor">REMOVE</td>
+                                </tr>
+                            </tbody>
+                    </table>   
+                </div>
+            </div>
+        </div><!--Row Ends!-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>
